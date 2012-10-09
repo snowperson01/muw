@@ -1,0 +1,21 @@
+return
+{
+  name = "an ether potion",
+  short = "An ether potion lies here.",
+  long = "It's a thin white liquid contained in a small glass bottle.",
+
+  value = 320,
+
+  t_use = function(self, arg)
+    local mob = arg[1]
+    -- send the output
+    mob:output("You drink the ether potion.")
+    mob.parent:output(cap(mob.name).." drinks an ether potion.", mob)
+    -- destroy the potion
+    self:destroy()
+    -- done
+    return not nil
+  end,
+
+  t_command = drink_command
+}

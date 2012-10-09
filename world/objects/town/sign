@@ -1,0 +1,14 @@
+return
+{
+  name = "a wooden sign",
+  short = "A wooden sign is nailed to a post.",
+  long =
+[[ .-------------------------.
+ | I suck at building, so  |
+ | this town will be built |
+ | gradually over several  |
+ | source releases...      |
+ `-------------------------']],
+
+  flags = fFIXED
+}

@@ -1,0 +1,21 @@
+return
+{
+  name = "a pure potion",
+  short = "A pure potion lies here.",
+  long = "It's a thick green liquid contained in a small glass bottle.",
+
+  value = 10,
+
+  t_use = function(self, arg)
+    local mob = arg[1]
+    -- send the output
+    mob:output("You drink the pure potion.")
+    mob.parent:output(cap(mob.name).." drinks a pure potion.", mob)
+    -- destroy the potion
+    self:destroy()
+    -- break
+    return not nil
+  end,
+
+  t_command = drink_command
+}

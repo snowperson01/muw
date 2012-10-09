@@ -1,0 +1,15 @@
+return
+{
+  name = "The Armor Shop",
+  short = "",
+
+  portals =
+  {
+    {"south", "town/west", "The door leads out into the street."}
+  },
+
+  mobiles =
+  {
+    "town/dwarf"
+  }
+}

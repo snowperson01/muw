@@ -1,0 +1,15 @@
+return
+{
+  name = "The Magic Shop",
+  short = "",
+
+  portals =
+  {
+    {"west", "town/east", "The door leads out into the street."}
+  },
+
+  mobiles =
+  {
+    "town/wizard"
+  }
+}

@@ -1,0 +1,10 @@
+return
+{
+  name = "",
+  short = "",
+  long = "",
+  gender = "",
+
+  sector = "town/square",
+  passwd = ""
+}

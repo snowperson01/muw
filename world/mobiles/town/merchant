@@ -1,0 +1,21 @@
+return
+{
+  name = "the woman",
+  short = "A woman stands behind the counter, dancing around.",
+  long = "She is wearing a simple cotton robe, bound at the waist with a sash. On her head is a white turban with a green jewel in the center.",
+  gender = "female",
+
+  forsale =
+  {
+    "items/candy",
+    "items/cure",
+    "items/x-cure",
+    "items/ether",
+    "items/x-ether",
+    "items/elixir"
+  },
+
+  t_create = shopkeeper_create,
+  t_talk = shopkeeper_talk,
+  t_command = shopkeeper_command
+}

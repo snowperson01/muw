@@ -1,0 +1,12 @@
+return
+{
+  name = "the innkeeper",
+  short = "The innkeeper stands behind the desk, doing paperwork.",
+  long = "",
+  gender = "female",
+
+  cost = 30,
+
+  t_talk = innkeeper_talk,
+  t_command = innkeeper_command
+}

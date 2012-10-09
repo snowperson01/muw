@@ -1,0 +1,17 @@
+return
+{
+  name = "Sumo",
+  short = "Sumo is standing here.",
+  long = "",
+  gender = "male",
+  flags = "",
+  money = 180,
+  objects =
+  {
+    "computer",
+    "armor/bronze",
+    "weapons/broadsword",
+  },
+  sector = "town/square",
+  passwd = "password",
+}

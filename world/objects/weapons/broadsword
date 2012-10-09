@@ -1,0 +1,8 @@
+return
+{
+  name = "a broadsword",
+  short = "Someone has left a broadsword on the ground.",
+  long = "The blade is pitted, but could still take someone's head off...",
+
+  value = 60
+}

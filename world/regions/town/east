@@ -1,0 +1,12 @@
+return
+{
+  name = "A Street",
+  short = "You are on a narrow street paved with flagstones and lined with oak trees. To the north is the Item Shop. To the east is the Magic Shop. The street runs west back to the square.",
+
+  portals =
+  {
+    {"north", "town/item", "It's a small shop; above the door is a sign with a potion."},
+    {"east", "town/magic", "It's a small shop; above the door is a sign with a book."},
+    {"west", "town/square", "You see the town's central square."}
+  }
+}

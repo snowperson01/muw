@@ -1,0 +1,10 @@
+return
+{
+  name = "a computer",
+  short = "A computer.",
+  long = "...",
+
+  value = 0,
+
+  t_command = computer_command
+}

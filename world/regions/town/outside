@@ -1,0 +1,10 @@
+return
+{
+  name = "Outside",
+  short = "",
+
+  portals =
+  {
+    {"north", "town/gates", "You see a small, stone-walled town."}
+  }
+}

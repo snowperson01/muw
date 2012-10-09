@@ -1,0 +1,16 @@
+return
+{
+  name = "the veteran",
+  short = "A grizzled war veteran stand behind the counter, polishing a sword.",
+  long = "",
+  gender = "male",
+
+  forsale =
+  {
+    "weapons/broadsword"
+  },
+
+  t_create = shopkeeper_create,
+  t_talk = shopkeeper_talk,
+  t_command = shopkeeper_command
+}

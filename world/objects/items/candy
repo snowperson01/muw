@@ -1,0 +1,21 @@
+return
+{
+  name = "a candy",
+  short = "A brightly wrapped candy lies here.",
+  long = "",
+
+  value = 10,
+
+  t_use = function(self, arg)
+    local mob = arg[1]
+    -- send the outputs
+    mob:output("You eat the candy.")
+    mob.parent:output(cap(mob.name).." eats a candy.", mob)
+    -- destroy candy
+    self:destroy()
+    -- done
+    return not nil
+  end,
+  
+  t_command = eat_command
+}

@@ -1,0 +1,15 @@
+return
+{
+  name = "the wizard",
+  short = "A black-robed wizard sits at a table, peering into a crystal ball.",
+  long = "His body is completely covered by black robes and a blue cloak. Atop his head is a straw hat, from under which you can only see his sharp eyes.",
+  gender = "male",
+
+  t_talk = function(self, arg)
+    local mob = arg[1]
+    -- send the output
+    mob:output("He says, \"Can't you see I'm busy? Come back later!\"")
+    -- break
+    return not nil
+  end
+}

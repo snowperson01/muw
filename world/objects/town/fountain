@@ -1,0 +1,10 @@
+return
+{
+  name = "the fountain",
+  short = "Water gushes from a large white fountain.",
+  long = "The fountain is carved from rough granite. The water pooled inside is crytal clear.",
+
+  flags = fFIXED,
+
+  objects = {}
+}

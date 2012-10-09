@@ -1,0 +1,11 @@
+return
+{
+  name = "The Town Gates",
+  short = "You stand before the town gates. Here, the surrounding wall is broken by an arch, with a paved street leading into the center square.",
+
+  portals =
+  {
+    {"north", "town/square", "You see the town's central sqaure."},
+    {"south", "town/outside", "The glowing eyes of scary monsters peer at you from the trees..."}
+  }
+}

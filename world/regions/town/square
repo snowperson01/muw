@@ -1,0 +1,19 @@
+return
+{
+  name = "Center Square",
+  short = "You stand in the center of the town, where travellers and townsfolk gather to gossip and trade. Paved streets run east and west from here. To the north is the Inn. The gates lie south.",
+
+  portals =
+  {
+    {"north", "town/inn", "It's a large building; above the door is a sign with a bed."},
+    {"east", "town/east", "A paved street runs east from here."},
+    {"south", "town/gates", "You see the entrance to the town."},
+    {"west", "town/west", "A paved street runs west from here."}
+  },
+
+  objects =
+  {
+    "town/fountain",
+    "town/sign"
+  }
+}

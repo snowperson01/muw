@@ -1,0 +1,16 @@
+return
+{
+  name = "the dwarf",
+  short = "A dwarf armorer stands behind the counter, counting his gold.",
+  long = "He is dressed in ornate handcrafted armor. All you can see is two glowing eyes and a long beard poking out from under his horned helmet.",
+  gender = "male",
+
+  forsale =
+  {
+    "armor/bronze"
+  },
+
+  t_create = shopkeeper_create,
+  t_talk = shopkeeper_talk,
+  t_command = shopkeeper_command
+}

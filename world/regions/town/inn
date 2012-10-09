@@ -1,0 +1,15 @@
+return
+{
+  name = "The Inn",
+  short = "",
+
+  portals =
+  {
+    {"south", "town/square", "The door leads out into the street."}
+  },
+
+  mobiles =
+  {
+    "town/innkeeper"
+  }
+}
